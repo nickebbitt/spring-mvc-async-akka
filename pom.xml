@@ -65,16 +65,6 @@
             <artifactId>spring-webmvc</artifactId>
             <version>${spring.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-oracle</artifactId>
-            <version>${spring-data-oracle.version}</version>
-        </dependency>
 
         <!-- JSON -->
         <dependency>
@@ -121,21 +111,6 @@
             <type>jar</type>
         </dependency>
 
-        <!-- Database -->
-        <dependency>
-            <groupId>com.oracle</groupId>
-            <artifactId>ojdbc7</artifactId>
-            <version>${oracle-jdbc.version}</version>
-            <type>jar</type>
-        </dependency>
-
-        <!-- JavaScript -->
-        <dependency>
-            <groupId>org.mozilla</groupId>
-            <artifactId>rhino</artifactId>
-            <version>1.7R4</version>
-        </dependency>
-
     </dependencies>
 
     <build>
@@ -147,17 +122,6 @@
                 <configuration>
                     <source>1.7</source>
                     <target>1.7</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.eclipse.jetty</groupId>
-                <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.0.3.v20130506</version>
-                <configuration>
-                    <httpConnector>
-                        <port>8088</port>
-                    </httpConnector>
-                    <jettyXml>${project.basedir}/src/main/jetty.xml</jettyXml>
                 </configuration>
             </plugin>
         </plugins>
