@@ -11,7 +11,7 @@ appender("CONSOLE", ConsoleAppender) {
       }
     }
 
-logger("uk.co.datasys", DEBUG)
+logger("uk.co.nickebbitt", DEBUG)
 
 
 root(INFO, appenderList)

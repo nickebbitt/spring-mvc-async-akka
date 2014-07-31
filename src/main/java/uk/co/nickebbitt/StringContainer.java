@@ -2,7 +2,7 @@
  * $Header: $
  */
 
-package uk.co.datasys;
+package uk.co.nickebbitt;
 
 import akka.actor.UntypedActor;
 import akka.event.Logging;

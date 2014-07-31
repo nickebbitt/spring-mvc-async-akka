@@ -2,7 +2,7 @@
  * $Header: $
  */
 
-package uk.co.datasys;
+package uk.co.nickebbitt;
 
 import java.util.Arrays;
 import java.util.List;
